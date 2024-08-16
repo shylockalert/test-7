@@ -43,17 +43,20 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                        <div class="card-body">
-                            <div class="small text-muted">January 1, 2023</div>
-                            <h2 class="card-title">Understanding the Basics of Cybersecurity</h2>
-                            <p class="card-text">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.</p>
-                            <p class="more-text">With the increasing reliance on digital platforms, it’s crucial to understand the basics. Cybersecurity involves protecting data from threats like malware, phishing, and ransomware. Learn the common cybersecurity terms and why they matter to both individuals and businesses.
+    <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
+    <div class="card-body">
+        <div class="small text-muted">January 1, 2023</div>
+        <h2 class="card-title">Understanding the Basics of Cybersecurity</h2>
+        <p class="card-text">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.</p>
+        <!-- Hidden content that will be toggled -->
+        <p class="card-text more-text" style="display: none;">
+            With the increasing reliance on digital platforms, it’s crucial to understand the basics. Cybersecurity involves protecting data from threats like malware, phishing, and ransomware. Learn the common cybersecurity terms and why they matter to both individuals and businesses.
+        </p>
+        <!-- Read More/Less Button -->
+        <button class="btn btn-primary read-more-btn" onclick="toggleReadMore(this)">Read More →</button>
+    </div>
+</div>
 
-</p>
-                            <a class="btn btn-primary" href="#!">Read more →</a>
-                        </div>
-                    </div>
                     <!-- Nested row for non-featured blog posts-->
                     <div class="row">
                         <div class="col-lg-6">
